@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<ToggleButton android:text="@+id/ToggleButton01"
+		android:id="@+id/ToggleButton01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></ToggleButton>
+		
+	<RatingBar android:id="@+id/RatingBar01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></RatingBar>
+		
+	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textSize="28px"
+		android:typeface="sans" android:textStyle="bold" android:textColor="#ffffff00"
+		android:text="@string/message"></TextView>
+		
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/programmed_by" />
+		
+</LinearLayout>

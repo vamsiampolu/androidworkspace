@@ -1,0 +1,139 @@
+package com.mysmsexample;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.telephony.SmsManager;
+import android.view.View;
+import android.widget.Toast;
+import android.widget.TextView;
+public class MainActivity extends Activity {
+
+	String SENT="SMS_SENT";
+	String DELIVERED="SMS_DELIVERED";
+	BroadcastReceiver smsSentReceiver,smsDeliveredReceiver;
+	PendingIntent sentPI,deliveredPI;
+	IntentFilter intentFilter;
+	@Override
+	protected void onCreate(Bundle savedInstanceState)
+	{
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		sentPI=PendingIntent.getBroadcast(this,0,new Intent(SENT),0);
+		deliveredPI=PendingIntent.getBroadcast(this,0,new Intent(DELIVERED),0);
+		intentFilter=new IntentFilter();
+		intentFilter.addAction("SMS_RECEIVED_ACTION");
+		registerReceiver(intentReceiver,intentFilter);
+	}
+	
+	private BroadcastReceiver intentReceiver=new BroadcastReceiver()
+	{
+		public void onReceive(Context contxt,Intent intent)
+		{
+			TextView showSms=(TextView)findViewById(R.id.msgView);
+			showSms.setText(intent.getExtras().getString("sms"));
+		}
+	};
+	
+	public void onResume()
+	{
+		super.onResume();
+		
+		smsSentReceiver=new BroadcastReceiver()
+		{
+			public void onReceive(Context context,Intent intent)
+			{
+				switch(getResultCode())
+				{
+				case Activity.RESULT_OK:
+						Toast.makeText(getBaseContext(), "Sms Sent", Toast.LENGTH_SHORT).show();
+						break;
+				case SmsManager.RESULT_ERROR_GENERIC_FAILURE:
+					Toast.makeText(getBaseContext(), "Generic failure", Toast.LENGTH_SHORT).show();
+					break;
+				case SmsManager.RESULT_ERROR_NO_SERVICE:	
+					Toast.makeText(getBaseContext(), "No Service", Toast.LENGTH_SHORT).show();
+					break;
+				case SmsManager.RESULT_ERROR_NULL_PDU:
+					Toast.makeText(getBaseContext(), "Null PDU", Toast.LENGTH_SHORT).show();
+				case SmsManager.RESULT_ERROR_RADIO_OFF:
+					Toast.makeText(getBaseContext(), "Radio off", Toast.LENGTH_SHORT).show();
+					break;
+				}
+			}
+		};
+		
+		smsDeliveredReceiver=new BroadcastReceiver()
+		{
+			public void onReceive(Context context,Intent intent)
+			{
+				switch(getResultCode())
+				{
+				case Activity.RESULT_OK:
+					Toast.makeText(getBaseContext(), "Sms delivered", Toast.LENGTH_SHORT).show();
+					break;
+				case Activity.RESULT_CANCELED:
+					Toast.makeText(getBaseContext(), "Sms not delivered", Toast.LENGTH_SHORT).show();
+					break;
+				}
+			}
+		};
+		registerReceiver(smsSentReceiver,new IntentFilter(SENT));
+		registerReceiver(smsDeliveredReceiver,new IntentFilter(DELIVERED));
+		
+	}
+	
+	public void onPause()
+	{
+		super.onPause();
+		unregisterReceiver(smsSentReceiver);
+		unregisterReceiver(smsDeliveredReceiver);
+		
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+	
+	public void onClickSend(View v)
+	{
+		sendSms("9701588818","Hello world");
+	}
+	
+	public void onClickInvokeMessaging(View v)
+	{
+		Intent i=new Intent(android.content.Intent.ACTION_VIEW);
+		i.putExtra("address","9701588818");
+		i.putExtra("sms-body", "hello messaging");
+		i.setType("vnd.android-dir/mms-sms");
+		startActivity(i);
+	}
+	
+	public void sendSms(final String phone,final String message)
+	{
+		new Thread()
+		{
+			public void run()
+			{
+				SmsManager sms=SmsManager.getDefault();
+				sms.sendTextMessage(phone, null, message, sentPI, deliveredPI);
+			}
+		}.start();
+		
+	}
+	
+	public void onDestroy()
+	{
+		super.onDestroy();
+		unregisterReceiver(intentReceiver);
+	}
+
+}

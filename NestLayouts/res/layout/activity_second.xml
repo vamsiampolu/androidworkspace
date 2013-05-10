@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:id="@+id/sView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rLayout"
+
+        >
+        
+        <CheckedTextView android:text="Check me out"
+            android:id="@+id/ctview"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            />
+        
+        <ImageView android:src="@drawable/comic2"
+            android:layout_below="@+id/ctview"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/comic2"
+            />
+        
+        <Button android:layout_alignParentRight="true"
+            android:layout_above="@+id/comic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bu1"
+            android:text="Something"
+            android:onClick="onClick"
+            />
+        <TextView android:id="@+id/tv1"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_below="@+id/comic2"
+            android:text="Hello,I write this text to inform you that Im not an Android but a giant marshmellow colored green,so if you dont like it bite me,see If I care,they are gonna keep using me in desserts and calling them software.I might look and feel soft on the outside but Im a tough cookie,well Im not a cookie,its just a figure of speech,if you dont like it sue me or dont sue me...but what I mean to say to say is although I posess tough mental armour it hurts me,a proud marshmellow to be called a JellyBean or an Ice Cream Sandwich,so help me God"
+          	android:layout_width="fill_parent"
+          	android:layout_height="wrap_content"
+            />
+        
+        <EditText android:id="@+id/etext"
+            android:layout_width="120dp"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:inputType="text"
+            />
+        
+        <FrameLayout android:id="@+id/flayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etext"
+            >
+        <ImageView android:src="@drawable/icon"
+            android:contentDescription="Gibberish"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+        </FrameLayout>
+       "
+    </RelativeLayout>
+</ScrollView>

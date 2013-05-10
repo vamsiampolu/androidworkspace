@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>NestLayouts</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.ResourceManagerBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.PreCompilerBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.ApkBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>res/drawable-hdpi/comic.jpg</name>
+			<type>1</type>
+			<location>C:/Users/HP-Pavilion/Pictures/comics/549980_10151393148749776_2146055342_n.jpg</location>
+		</link>
+		<link>
+			<name>res/drawable-hdpi/comic2.png</name>
+			<type>1</type>
+			<location>E:/Android Workspace/NestLayouts/res/drawable-hdpi/comic2.png</location>
+		</link>
+		<link>
+			<name>res/drawable-hdpi/icon.png</name>
+			<type>1</type>
+			<location>E:/Android/Android examples/icon.png</location>
+		</link>
+	</linkedResources>
+</projectDescription>

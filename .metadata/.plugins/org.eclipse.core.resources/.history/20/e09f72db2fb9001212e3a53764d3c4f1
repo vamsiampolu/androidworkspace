@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <!-- Using styles is similar to using css it enables the seperation of design from content
+    	A style is a collection of properties defined for the view,a theme is a collection of properties
+    	of properties applied to the application or activity
+    	
+    	If a style is applied as a theme every view will have the same properties as the style.
+    
+    	Each child of the resources element is converted into an application resource object at compile time 
+    	and can be referenced by and can be the style's name attribute.
+     
+     	To inherit from a system defined theme use the parent attribute of style,
+     	to inherit from your style/theme use the name of the style as parentName.Change
+     
+     	For a reference of all style properties refer R.attr
+     -->
+    <TextView 
+        android:id="@+id/txt_hello"
+       	style="@style/myTextStyle.Red.Big"
+        android:text="@string/hello_world" />
+    <EditText android:id="@+id/edit_hello"
+        	  android:layout_toRightOf="@id/txt_hello"
+        	  android:layout_marginLeft="15dp"
+        	  style="@style/editTextStyle"
+	/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style	android:name="txt_style">
+        <item android:name="android:layout_width">wrap_content</item>
+        <item android:name="android:layout_height">wrap_content</item>
+        <item android:name="android:textAppearence">?android:attr/textAppearenceLarge</item>
+   		<item android:name="android:background">#FFF</item>
+        </style>
+    
+</resources>

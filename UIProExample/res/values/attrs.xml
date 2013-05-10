@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <declare-styleable name="gridView">
+        <attr name="android:gridViewItemBackground"/>
+    </declare-styleable>
+    <declare-styleable>
+        <attr name="android:galleryItemBackground"/>
+    </declare-styleable>
+    
+</resources>

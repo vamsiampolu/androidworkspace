@@ -1,0 +1,21 @@
+
+	<LinearLayout android:layout_width="fill_parent"
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:weightSum="2"
+	    >
+    <fragment android:id="@+id/fragment01"
+        android:name="com.nestedlayouts.mine.Fragment1"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="0px"/>"
+       <fragment
+           android:id="@+id/fragment02"
+           android:name="com.nestedlayouts.mine.Fragment2"
+           android:layout_weight="1"
+           android:layout_width="fill_parent"
+           android:layout_height="0px"
+           />
+   <!--    <fragment/>-->
+	</LinearLayout>

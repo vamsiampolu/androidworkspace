@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/containerItem"
+          android:title="Menu"
+          android:showAsAction="always"
+          android:menuCategory="container">
+    <menu>
+        <item android:id="@+id/homeMenu"
+            android:title="Home"
+            android:icon="@drawable/home_icon"
+            android:showAsAction="ifRoom"
+            />
+        <item android:id="@+id/comeIn"
+            android:title="Register"
+            android:icon="@drawable/firststeps"
+            android:showAsAction="ifRoom"/>
+        
+        <item android:id="@+id/posters"
+            android:title="Movie Posters"
+        	android:showAsAction="ifRoom"
+            android:icon="@drawable/webresources"/>
+       
+        <item android:id="@+id/about_me"
+            android:title="About Us"
+            android:showAsAction="ifRoom"
+            android:icon="@drawable/ic_launcher"/>
+        
+         <item
+        android:id="@+id/exit_here"
+        android:title="Exit"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/exit_icon"
+        />
+        
+    </menu>
+    </item>
+
+</menu>

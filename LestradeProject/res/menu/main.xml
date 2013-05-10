@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/item1"
+          android:icon="@drawable/ic_launcher"
+          android:title="Corleone" 	
+          android:showAsAction="always|withText"
+        />
+    <item android:id="@+id/item2"
+        android:icon="@drawable/ic_launcher"
+        android:title="Stark"
+        android:showAsAction="never|withText"
+        />
+    <item android:id="@+id/item3"
+          android:icon="@drawable/ic_launcher"
+          android:title="Dragon"
+          android:showasAction="never|withText"
+          />
+		
+</menu>

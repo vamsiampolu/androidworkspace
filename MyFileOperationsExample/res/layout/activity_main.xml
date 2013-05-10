@@ -1,0 +1,99 @@
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+    		xmlns:android="http://schemas.android.com/apk/res/android"
+    		xmlns:tools="http://schemas.android.com/tools"
+    		tools:context=".MainActivity"
+    >
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <TextView android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saving Data to a File" />
+    
+    <EditText android:id="@+id/edit01"
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content"
+              android:layout_below="@id/heading"
+              android:layout_alignParentLeft="true"
+              android:layout_marginLeft="25dp"
+              android:layout_marginTop="30dp"
+              android:hint="Put some text here"
+	/>
+    
+    <TextView
+        android:id="@+id/fromInternalLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edit01"
+        android:layout_marginTop="34dp"
+        android:text="Save to Internal Storage" />
+    
+    <Button android:id="@+id/btn_save" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:text="Save"
+        	android:onClick="onClickSave"
+        	android:layout_alignParentLeft="true"
+        	android:layout_below="@id/fromInternalLabel"
+        	android:layout_marginTop="30dp"
+        	android:layout_marginLeft="35dp"
+        	/>
+    <Button android:id="@+id/btn_load"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="Load"
+            android:layout_toRightOf="@id/btn_save"
+            android:layout_alignTop="@id/btn_save"
+            android:layout_marginLeft="20dp"
+            android:onClick="onClickLoad"
+            />
+    <Button android:id="@+id/btn_Clear"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:text="Clear"
+             android:layout_toRightOf="@id/btn_load"
+             android:layout_alignTop="@id/btn_load"
+             android:layout_marginLeft="20dp"
+             android:onClick="onClickClear"
+             />
+
+    
+    
+    <TextView android:id="@+id/fromSdlabel"
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content"
+			  android:layout_below="@id/btn_save"
+			  android:layout_centerHorizontal="true"
+			  android:layout_marginTop="34dp"
+			  android:text="Saving to External Storage"/>
+    
+    <Button android:id="@+id/btn_Save" 
+        	android:layout_width="fill_parent" 
+        	android:layout_height="wrap_content"
+        	android:text="Save to SD Card"
+        	android:layout_below="@id/fromSdlabel"
+        	android:layout_alignParentLeft="true"
+        	android:layout_marginTop="25dp"
+        	android:onClick="onClickSaveToSDCard"/>	
+        	
+    <Button android:id="@+id/btn_Load" 
+        	android:layout_width="fill_parent" 
+        	android:layout_height="wrap_content"
+        	android:text="Load from SD Card"
+        	android:layout_below="@id/btn_Save"
+        	android:layout_marginTop="15dp"
+        	android:onClick="onClickLoadFromSDCard"
+        	/>
+    <Button android:id="@+id/btn_fromRaw"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:text="Load From Raw"
+            android:layout_below="@id/btn_Load"
+            android:layout_marginTop="15dp"
+            android:onClick="onClickLoadFromRaw"/> 
+</RelativeLayout>
+</ScrollView>

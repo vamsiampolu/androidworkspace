@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout android:layout_width="match_parent" 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent">
+    <TableRow>
+        <TextView android:id="@+id/tv1"
+            android:width="120dp"
+            android:text="Food Item"
+            android:layout_gravity="center"
+            />
+        
+        <TextView android:id="@+id/tv02"
+            android:width="120dp"
+            android:layout_gravity="center"
+            android:text="Serving/Quantiy"/>
+        
+        <TextView android:id="@+id/tv03"
+            android:width="120dp"
+            android:layout_gravity="center"
+            android:text="Calories"/>
+        "
+    </TableRow>
+    
+    <TableRow>
+         <TextView 
+            android:width="120dp"
+            android:text="Apple with Skin"
+            android:layout_gravity="center"
+            />
+        
+        <TextView 
+            android:width="120dp"
+            android:layout_gravity="center"
+            android:text="extra small 4 oz with refuse"/>
+        
+        <TextView 
+            android:width="120dp"
+            android:layout_gravity="center"
+            android:text="53"/>
+    </TableRow>
+    
+    <TableRow>
+     <TextView 
+            android:width="120dp"
+            android:text="Apple with skin"
+            android:layout_gravity="center"
+            />
+        
+        <TextView 
+            android:width="120dp"
+            android:layout_gravity="center"
+            android:text="cup sliced(3.8 oz)"/>
+        
+        <TextView 
+            android:width="120dp"
+            android:layout_gravity="center"
+            android:text="57"/>    
+    </TableRow>
+    
+</TableLayout>

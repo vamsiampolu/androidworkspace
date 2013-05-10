@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    
+    
+    <TextView android:id="@+id/logintv"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_marginLeft="30dp"
+              android:layout_marginTop="40dp"
+              android:text="Login"/>
+    
+    
+     <TextView android:id="@+id/welcome"
+         	   android:layout_above="@id/logintv"
+               android:layout_marginBottom="20dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+               android:text="You may login here"/>
+			  
+			                  
+    <EditText android:id="@+id/login"
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content"
+			  android:hint="Enter username"
+			  android:layout_toRightOf="@id/logintv"
+			  android:layout_alignBaseline="@id/logintv"
+			  android:layout_marginLeft="50dp"
+			  />
+    <TextView 
+        android:id="@+id/pwdtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="35dp"
+        android:layout_alignStart="@id/logintv"
+        android:layout_below="@id/logintv"/>
+    
+    <EditText android:id="@+id/pwd" 
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:hint="Enter password"
+              android:layout_toRightOf="@id/pwdtv"
+              android:layout_below="@id/login" 
+              android:layout_alignLeft="@id/login"
+              android:layout_alignRight="@id/login"
+              android:layout_alignBaseline="@id/pwdtv"
+              />
+             <Button android:id="@+id/login_button"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Login"
+                     android:layout_below="@id/pwdtv"
+                     android:layout_marginTop="30dp"
+                     android:layout_centerHorizontal="true" />
+</RelativeLayout>

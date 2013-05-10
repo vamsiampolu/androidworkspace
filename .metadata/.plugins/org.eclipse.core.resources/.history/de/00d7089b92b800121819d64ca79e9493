@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yambaproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+<!-- To apply a system built in theme use @android:style/Theme.Light 
+	The style/theme applied to the widget takes precedence
+	For ICS and above,your app can have other themes but must also support a holo theme
+	Your Android SDK has a folder called platforms->data which has a sub-folder called res,this contains
+	all system built in themes/properties
+	To access any in built system properties call it @android:<type>/<property-name>
+-->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light" >
+        <activity
+            android:name="com.yambaproject.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

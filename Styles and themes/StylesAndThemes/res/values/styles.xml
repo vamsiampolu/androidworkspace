@@ -1,0 +1,13 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="MyThemeSelector" parent="@android:style/Theme"></style>
+
+    <style name="My.Theme.Dialog" parent="@android:style/Theme.Dialog">
+         <item name="android:windowNoTitle">true</item> 
+         <item name="android:background">@android:color/white</item>
+         <!-- <item name="android:background">@drawable/ic_action_search</item> -->
+    </style>
+
+    <style name="MyThemedDialog" parent="@style/My.Theme.Dialog"></style>
+
+</resources>

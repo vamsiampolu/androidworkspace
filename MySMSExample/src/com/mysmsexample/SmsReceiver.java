@@ -1,0 +1,46 @@
+package com.mysmsexample;
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.telephony.SmsMessage;
+import android.util.Log;
+import android.widget.Toast;
+
+public class SmsReceiver extends BroadcastReceiver {
+
+	@Override
+	public void onReceive(Context context, Intent intent) {
+		// TODO Auto-generated method stub
+			Bundle bundle=intent.getExtras();
+			SmsMessage [] msgs=null;
+			String FROM="Sms from";
+			if(bundle!=null)
+			{
+				Object[] pdus=(Object[])bundle.get("pdus");
+				msgs=new SmsMessage[pdus.length];
+				for(int i=0;i<msgs.length;i++)
+				{
+					msgs[i]=SmsMessage.createFromPdu((byte[])(pdus[i]));
+					if(i==0)
+					{
+						FROM+=msgs[i].getOriginatingAddress();
+						FROM+=": ";
+					}
+					FROM+=msgs[i].getMessageBody().toString();
+				}
+				Toast.makeText(context, FROM, Toast.LENGTH_SHORT).show();
+				Intent mainActivityIntent=new Intent(context,MainActivity.class);
+				mainActivityIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+				context.startActivity(mainActivityIntent);
+				Intent broadcastIntent=new Intent();
+				broadcastIntent.setAction("SMS_RECEIVED_ACTION");
+				broadcastIntent.putExtra("sms",FROM);
+				context.sendBroadcast(broadcastIntent);
+				
+			}
+			this.abortBroadcast();
+	}
+
+}

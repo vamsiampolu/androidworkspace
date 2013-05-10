@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+     
+    <TextView android:id="@+id/headlabel"
+        	  android:layout_width="wrap_content" 
+        	  android:layout_height="wrap_content"
+     		  android:layout_alignParentLeft="true"
+     		  android:layout_alignParentTop="true"
+     		  android:layout_marginTop="10dp"
+     		  android:layout_marginLeft="10dp"
+     		  android:text="State your name and the password and you may enter"/>
+    	
+    <TextView android:id="@+id/loginlabel"
+        	  android:layout_width="wrap_content"
+        	  android:layout_height="wrap_content" 
+        	  android:text="Enter username:"
+        	  android:layout_below="@id/headlabel"
+        	  android:layout_alignParentLeft="true"
+        	  android:layout_marginLeft="25dp"
+        	  android:layout_marginTop="25dp"
+        	  />
+    
+    <EditText android:id="@+id/loginhere" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:hint="Identify yourself"
+    	android:layout_toRightOf="@id/loginlabel" 
+    	android:layout_alignBaseline="@id/loginlabel"
+		android:layout_marginLeft="15dp"/>
+    
+    <TextView android:id="@+id/passkeylabel"
+        	  android:layout_width="wrap_content"
+        	  android:layout_height="wrap_content" 
+        	  android:layout_below="@id/loginlabel"
+			  android:layout_alignLeft="@id/loginlabel"
+			  android:layout_marginTop="20dp"
+			  android:text="Enter password"
+			  />
+    
+    <EditText android:id="@+id/passkey"
+        	  android:layout_width="wrap_content"
+        	  android:layout_height="wrap_content" android:hint="Enter password"
+        	  android:layout_toRightOf="@id/passkeylabel"
+        	  android:layout_alignBaseline="@id/passkeylabel"
+        	  android:layout_alignLeft="@id/loginhere"/>	
+     <Button android:id="@+id/btn_login"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Enter"
+             android:layout_below="@id/passkeylabel"
+             android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            
+             />   	  
+</RelativeLayout>

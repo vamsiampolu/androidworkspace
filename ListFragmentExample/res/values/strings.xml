@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListFragmentExample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="fragment">Actor List</string>
+	<string-array name="actors">
+	    <item>David Straetherin</item>
+	    <item>Toshiro Mifune</item>
+	    <item>Daniel Day Lewis</item>
+	    <item>Peter Llore</item>
+	    <item>Henry Fonda</item>
+	    <item>James Macavoy</item>
+	    <item>Edward Norton</item>
+	    <item>Guy Pearce</item>
+	    <item>Kevin Costner</item>
+	    <item>Abbas Kiarosthoumi</item>
+	    <item>Jafar Panahi</item>
+	    <item>Miyazaki</item>
+	    <item>Buster Keaton</item>
+	    <item>Thea Von Harbou</item>
+	    
+	    </string-array>
+</resources>

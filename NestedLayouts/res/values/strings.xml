@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nested Layouts</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="desc">Uses a calendar object that can be used to access a dynamic stream that displays all the remainders, tasks and activities that a user can have access to (i.e personal remainders all the tasks and activities owned by individuals at lower access levels).These details can be filter by Position and by Type i.e if the user choses to do so the results are filtered to show only the activities owned by Partner Managers.</string>
+
+</resources>

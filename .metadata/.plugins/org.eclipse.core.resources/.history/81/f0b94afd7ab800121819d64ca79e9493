@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myBlue"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+     >
+<!-- When something is specified in values the only important 
+thing is the type of resource it is,not it's path 
+so values->colors->color->myBlue is simply "@color/myBlue"
+
+Colors are specified as #RGB (F represents 255)#FRGB includes alpha channel
+#c00F is to specify a value of translucence ,then there is #FFFRGB(??)
+
+If a style is applied to a widget it is called a style,if it is applied to
+an Activity it is called a theme
+-->
+    <TextView 
+        	android:id="@+id/txt_status"
+        	android:layout_width="55dp"
+        	android:layout_height="wrap_content"
+        	android:text="Status"
+        	android:background="#FFF"
+        	android:layout_alignParentLeft="true"
+        	android:layout_alignParentTop="true"
+        />
+    
+    <Button android:id="@+id/btn_status"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="Submit"
+            android:layout_alignBottom="@id/txt_status"
+            android:background="#FFF"
+            />
+    <EditText android:layout_width="fill_parent"
+        	  android:id="@+id/edit_status"
+        	  android:layout_alignParentBottom="true"
+   			  android:hint="Update status here"
+   			  android:layout_below="@id/txt_status"
+   			  android:layout_marginTop="10dp"
+   			  android:layout_marginBottom="10dp"
+   			  android:inputType="textMultiLine"
+   			  android:background="#cFFF"
+   />
+</RelativeLayout>

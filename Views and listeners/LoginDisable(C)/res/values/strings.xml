@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LoginDisable!</string>
+    <string name="app_name">Login Button Disable</string>
+    <string name="login_btn">Login</string>
+</resources>

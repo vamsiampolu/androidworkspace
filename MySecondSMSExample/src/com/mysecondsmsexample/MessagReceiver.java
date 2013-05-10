@@ -1,0 +1,54 @@
+package com.mysecondsmsexample;
+import java.util.ArrayList;
+
+import com.mysecondsmsexample.MainActivity;
+
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.telephony.SmsMessage;
+public class MessagReceiver extends BroadcastReceiver 
+{
+	
+		public void onReceive(Context context,Intent intent)
+		{
+			String from=null,msg=null;
+			long time=0;
+			ArrayList<String> list; 
+			Bundle bundle=intent.getExtras();
+			SmsMessage[] messages=null;
+			if(bundle!=null)
+			{
+				Object[] pdus=(Object[])bundle.get("pdus");
+				messages=new SmsMessage[pdus.length];
+				list=new ArrayList<String>();
+				for(int i=0;i<messages.length;i++)
+				{
+					messages[i]=SmsMessage.createFromPdu((byte[])pdus[i]);
+					if(i==0)
+					{
+						from ="From" + messages[0].getOriginatingAddress()+": "; 
+					}
+					msg=messages[i].getMessageBody().toString();
+					time=messages[i].getTimestampMillis();
+					time=System.currentTimeMillis()-time;
+					time=time/3600;
+					list.add(from);
+					list.add(msg);
+					list.add(""+time);
+					
+				}
+				
+				Intent broadcastIntent=new Intent();
+				Intent mainActivityIntent=new Intent(context,MainActivity.class);
+				mainActivityIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+				context.startActivity(mainActivityIntent);
+				broadcastIntent.setAction("SMS_RECEIVED_ACTION");
+				broadcastIntent.putStringArrayListExtra("details", list);
+				context.sendBroadcast(broadcastIntent);
+			}
+		}
+	
+}

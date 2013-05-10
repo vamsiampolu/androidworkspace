@@ -1,0 +1,59 @@
+package com.yambaproject;
+
+import winterwell.jtwitter.Twitter;
+import winterwell.jtwitter.TwitterException;
+import android.app.Activity;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.View;
+import android.widget.Toast;
+import android.widget.EditText;
+import android.util.Log;
+public class MainActivity extends Activity {
+
+	EditText edit_status;
+	static final String TAG="Yamba";
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);	
+	}
+	
+	public void onClick(View v)
+	{
+		
+	}
+	
+	 class StatusUpdateTask extends AsyncTask<String,Void,String>
+	{
+
+		@Override
+		protected String doInBackground(String... input) {
+			// TODO Auto-generated method stub
+			try {
+				Twitter twitter=new Twitter("student","password");
+				twitter.setAPIRootUrl("http://yamba.marakhana.com/api");
+				twitter.setStatus(input[0]);
+				Log.d(TAG,"Successfully posted"+input[0]);
+			} catch (TwitterException e) {
+				// TODO Auto-generated catch block
+				Log.e(TAG,"COuld not be updated"+input[0],e);
+				//e.printStackTrace();
+			}
+			return null;
+		}
+		
+	}
+	
+	//Setting an onClick attribute in xml 
+	//and using it directly in Java Reflection is used to accomplish this
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:text="Join my team,Register here"
+        android:id="@+id/regwelcome"
+        />
+    
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="First Name"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/regwelcome"
+        android:id="@+id/fnamelabel"
+        />
+    
+    <EditText 
+        android:id="@+id/fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:layout_below="@id/regwelcome"
+        android:layout_alignBaseline="@id/fnamelabel"
+		android:layout_toRightOf="@id/fnamelabel"
+		/>
+    
+    <TextView android:id="@+id/lnamelabel"
+        	  android:layout_width="wrap_content" 
+        	  android:layout_height="wrap_content"
+        	  android:text="Last Name"
+        	  android:paddingTop="10dp"
+      		  android:layout_alignParentLeft="true"	
+        	  android:layout_below="@id/fnamelabel"
+        	  android:paddingLeft="10dp"	
+        />
+    
+    <EditText android:id="@+id/lname"
+        	  android:layout_width="wrap_content"
+        	  android:layout_height="wrap_content"
+        	  android:hint="Last Name"
+        	  android:layout_below="@id/fname"
+        	  android:layout_alignLeft="@id/fname"
+        	  android:layout_alignBaseline="@id/lnamelabel"
+        	  android:paddingLeft="10dp"
+        	  android:paddingTop="10dp"/>
+    
+    <TextView android:id="@+id/emaillabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:layout_below="@id/lnamelabel"/>
+       
+    <EditText android:id="@+id/email"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_toRightOf="@id/emaillabel"
+        android:layout_below="@id/lname"
+        android:layout_alignLeft="@id/lname"
+        android:hint="Enter email"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:layout_alignBaseline="@id/emaillabel"
+    />
+    
+    <TextView android:id="@+id/pwdlabel"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+		android:layout_below="@id/emaillabel"
+		android:layout_alignParentLeft="true"
+		android:paddingLeft="10dp"
+		android:paddingTop="10dp"
+		android:text="password"/>
+    
+    <EditText android:id="@+id/pwd"
+        	  android:layout_width="wrap_content" 
+        	  android:layout_height="wrap_content"
+        	  android:hint="Enter password"
+        	  android:layout_below="@id/email"
+        	  android:layout_toRightOf="@id/pwdlabel"
+        	  android:layout_alignBaseline="@id/pwdlabel"
+        	  android:layout_alignLeft="@id/email"
+        	  android:paddingLeft="10dp"
+        	  android:paddingTop="10dp"
+        	  />
+		    
+    <TextView android:id="@+id/radiogrouplabel"
+        	  android:layout_width="wrap_content" 
+        	  android:layout_height="wrap_content"
+        	  android:text="Select Gender"
+        	  android:layout_below="@id/emaillabel"
+        	  android:layout_alignParentLeft="true"
+        	  android:paddingLeft="10dp"
+        	  android:paddingTop="10dp"
+        />
+    
+    <RadioGroup android:id="@+id/gendergroup"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radiogrouplabel"
+        android:layout_alignParentLeft="true"
+       android:paddingLeft="10dp"
+       android:paddingTop="10dp"
+       android:gravity="center"
+       >
+        
+        <RadioButton android:id="@+id/maleselect"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pwd"
+            android:text="Male"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"/> 
+        
+        <RadioButton android:id="@+id/femaleselect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:layout_alignBaseline="@id/maleselect"
+            />
+        </RadioGroup>
+        
+    <CheckBox android:id="@+id/acceptterms"
+              android:layout_below="@id/gendergroup"
+              android:layout_alignParentLeft="true"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="10dp"
+              android:paddingTop="10dp"
+              android:text="I have read and accept all the Terms and Conditions,actually I didn't but I will lie anyways"
+    		/>	
+    		<LinearLayout  android:layout_below="@id/acceptterms"
+    	    	     android:layout_centerHorizontal="true"
+    	    	     android:paddingTop="25dp"
+    	    	     android:layout_width="wrap_content" 
+    	    	     android:layout_height="wrap_content"
+    	    	     >
+    		
+    	<Button android:id="@+id/button_submit"
+    	    	     android:layout_width="wrap_content" 
+    	    	     android:layout_height="wrap_content" 
+    	    	     android:text="Submit"
+    	    	     android:onClick="onClick"
+    	    />
+    	
+    	<ImageView android:id="@+id/suvmit6"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content" 
+    		android:src="@drawable/robot"
+    		/>
+    	</LinearLayout>
+</RelativeLayout>

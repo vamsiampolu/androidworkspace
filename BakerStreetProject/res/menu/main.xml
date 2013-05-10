@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/mone"
+          android:icon="@drawable/ic_launcher"
+          android:title="Jim Moriarty"
+          android:showAsAction="ifRoom|withText"
+    />
+    
+    <item android:id="@+id/mtwo"
+          android:icon="@drawable/ic_launcher"
+          android:title="Irene Addler"
+          android:showAsAction="ifRoom|withText"
+          />
+    <item android:id="@+id/mthree"
+        android:icon="@drawable/ic_launcher"
+        android:title="Merlock Holmes"
+        android:showAsAction="ifRoom|withText"
+        />
+</menu>

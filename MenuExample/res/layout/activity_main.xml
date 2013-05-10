@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:layout_alignParentTop="true" />
+	<Button android:id="@+id/button01"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="CLick and hold"
+	    android:layout_below="@+id/tv"
+	    android:layout_alignParentLeft="true"
+	    />
+	<WebView android:id="@+id/webview"
+	    android:layout_below="@+id/buttom01"
+	    android:layout_width="320dp"
+	    android:layout_height="250dp"/>"
+</RelativeLayout>

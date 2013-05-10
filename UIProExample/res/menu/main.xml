@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <item android:id="@+id/menu"
+       android:title="Menu"
+       android:showAsAction="always|collapseActionView"
+       android:icon="@drawable/friends"
+       >
+       <menu>
+           <item android:id="@+id/enemies"
+               android:title="Enemies"
+               android:icon="@drawable/enemies"
+               android:showAsAction="ifRoom"/>
+           <item android:id="@+id/gallery"
+               android:title="Photos"
+               android:icon="@drawable/camera_icon"
+               android:showAsAction="ifRoom"
+               />
+           <item android:id="@+id/aboutus"
+               android:title="About us"
+               android:showAsAction="ifRoom"
+               />
+           </menu>"
+   </item>
+   
+</menu>

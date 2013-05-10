@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;NasaImageOfTheDay/res/drawable-hdpi/736347main_icebridge_starts_cropped_516-387.jpg&apos; to &apos;test.jpg&apos;" description="Rename resource &apos;736347main_icebridge_starts_cropped_516-387.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/drawable-hdpi/736347main_icebridge_starts_cropped_516-387.jpg" name="test.jpg" stamp="1364141666617" updateReferences="true"/>
+</session>

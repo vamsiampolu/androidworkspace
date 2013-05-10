@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical"
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="#FFFE00"
+     
+     >
+     <TextView android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Fragment2"
+         android:textColor="#000000"
+         android:textSize="25sp"/>
+     <Button android:id="@+id/clickme"
+         android:onClick="onClick"
+         android:text="Text from Fragment 1"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+        />"
+     </LinearLayout>

@@ -1,0 +1,7 @@
+package com.mysecondcontentprovider;
+
+import android.app.ListActivity;
+
+public class BookListActivity extends ListActivity {
+
+}
