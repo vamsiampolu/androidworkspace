@@ -27,10 +27,15 @@
             </intent-filter>
         </activity>
         
-        <service android:name="com.yambaproject.UpdaterService">
-            
-        </service> 
-        <service android:name="com.yambaproject.RefreshService"></service>e
+        <activity android:name="com.yambaproject.PrefsActivity">
+  		<intent-filter>
+  		    <action android:name="yamba_preferences"/>
+  		    <category android:name="android.intent.category.DEFAULT"/>
+  		</intent-filter>	   
+        </activity>
+        
+        <service android:name="com.yambaproject.UpdaterService"></service> 
+        <service android:name="com.yambaproject.RefreshService"></service>
     </application>
 
 </manifest>

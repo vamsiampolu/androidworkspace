@@ -1,6 +1,5 @@
 package com.yambaproject;
 
-import winterwell.jtwitter.Twitter;
 import winterwell.jtwitter.TwitterException;
 import android.app.Activity;
 import android.content.Intent;
@@ -42,7 +41,7 @@ public class MainActivity extends Activity {
 			// TODO Auto-generated method stub
 			try {
 				
-				((YambaApplication)getApplication()).twitter.setStatus(input[0]);
+				((YambaApplication)getApplication()).getTwitter().setStatus(input[0]);
 				Log.d(TAG,"Successfully posted "+input[0]);
 				return "Successfully posted "+input[0];
 			} catch (TwitterException e) {
@@ -96,6 +95,9 @@ public class MainActivity extends Activity {
 				return true;
 			case R.id.refresh_service:
 				startService(refreshIntent);
+				return true;
+			case R.id.show_preferences:
+				startActivity(new Intent(getApplicationContext(),PrefsActivity.class));
 				return true;
 		}
 		return false;

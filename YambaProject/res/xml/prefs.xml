@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <EditTextPreference android:key="@string/editpref_key"
+        			    android:title="Username"
+        			    android:summary="Enter your username here"        			    
+        />
+    
+    <EditTextPreference android:key="password"
+        				android:title="Password"
+        				android:summary="Enter your password here"
+        				android:password="true"
+        				
+	/>
+    <EditTextPreference android:key="server"
+        				android:title="Server"
+        				android:summary="The app will connect to this server"
+	/>
+</PreferenceScreen>

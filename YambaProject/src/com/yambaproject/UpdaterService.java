@@ -37,7 +37,7 @@ public class UpdaterService extends Service {
 				try {
 					while(running)
 					{
-						List<Status> timeline = ((YambaApplication)getApplication()).twitter.getPublicTimeline();
+						List<Status> timeline = ((YambaApplication)getApplication()).getTwitter().getPublicTimeline();
 						for (Status status : timeline)
 						{
 							Log.e(TAG, String.format("%s: %s", status.user.name,status.text));

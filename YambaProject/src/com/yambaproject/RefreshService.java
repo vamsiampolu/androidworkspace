@@ -33,7 +33,7 @@ public class RefreshService extends IntentService
 		// TODO Auto-generated method stub
 		Log.d(TAG,"Refresh IntentService");
 		try {
-			List<Status> timeline=((YambaApplication)getApplication()).twitter.getPublicTimeline();
+			List<Status> timeline=((YambaApplication)getApplication()).getTwitter().getPublicTimeline();
 			for(Status status:timeline)
 			{
 				Log.d(TAG,String.format("%s : %s", status.user.name,status.text));
