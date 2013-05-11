@@ -28,7 +28,8 @@
         
         <service android:name="com.yambaproject.UpdaterService">
             
-        </service>        
+        </service> 
+        <service android:name="com.yambaproject.RefreshService"></service>e
     </application>
 
 </manifest>

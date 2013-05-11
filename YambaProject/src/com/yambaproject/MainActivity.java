@@ -83,16 +83,21 @@ public class MainActivity extends Activity {
 	
 	public boolean onOptionsItemSelected(MenuItem item)
 	{
-		Intent intent=new Intent(this,com.yambaproject.UpdaterService.class);
+		Intent updaterIntent=new Intent(getApplicationContext(),com.yambaproject.UpdaterService.class);
+		Intent refreshIntent=new Intent(this,com.yambaproject.RefreshService.class);
 		switch(item.getItemId())
 		{
 			case R.id.startService:
-				startService(intent);
+				startService(updaterIntent);
 				Toast.makeText(this, "Service started", Toast.LENGTH_SHORT).show();
 				return true;
 			case R.id.stop_service:
-				stopService(intent);
+				stopService(updaterIntent);
 				Toast.makeText(this, "Service stopped", Toast.LENGTH_SHORT).show();
+				return true;
+			case R.id.refresh_service:
+				startService(refreshIntent);
+				return true;
 		}
 		return false;
 	}
