@@ -41,9 +41,8 @@ public class MainActivity extends Activity {
 		protected String doInBackground(String... input) {
 			// TODO Auto-generated method stub
 			try {
-				Twitter twitter=new Twitter("student","password");
-				twitter.setAPIRootUrl("http://yamba.marakana.com/api");
-				twitter.setStatus(input[0]);
+				
+				((YambaApplication)getApplication()).twitter.setStatus(input[0]);
 				Log.d(TAG,"Successfully posted "+input[0]);
 				return "Successfully posted "+input[0];
 			} catch (TwitterException e) {

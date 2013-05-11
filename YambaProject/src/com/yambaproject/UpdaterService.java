@@ -20,13 +20,12 @@ public class UpdaterService extends Service {
 		//Ignore this method
 		return null;
 	}
-	Twitter twitter;
+	
 	public void onCreate()
 	{
 		super.onCreate();
 		Log.d(TAG,"Service onCreate called");
-		twitter=new Twitter("student","password");
-		twitter.setAPIRootUrl("http://yamba.marakana.com/api");
+		
 	}
 	
 	public int onStartCommand(Intent intent,int flags,int startId)
@@ -38,7 +37,7 @@ public class UpdaterService extends Service {
 				try {
 					while(running)
 					{
-						List<Status> timeline = twitter.getPublicTimeline();
+						List<Status> timeline = ((YambaApplication)getApplication()).twitter.getPublicTimeline();
 						for (Status status : timeline)
 						{
 							Log.e(TAG, String.format("%s: %s", status.user.name,status.text));
