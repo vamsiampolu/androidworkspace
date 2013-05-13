@@ -8,6 +8,10 @@
 package com.yambaproject;
 
 public final class R {
+    public static final class array {
+        public static final int delay_entries=0x7f090000;
+        public static final int delay_values=0x7f090001;
+    }
     public static final class attr {
     }
     public static final class color {
@@ -27,21 +31,21 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0003;
-        public static final int btn_status=0x7f0a0001;
-        public static final int edit_status=0x7f0a0002;
-        public static final int refresh_service=0x7f0a0006;
-        public static final int show_preferences=0x7f0a0007;
-        public static final int startService=0x7f0a0004;
-        public static final int stop_service=0x7f0a0005;
-        public static final int txt_status=0x7f0a0000;
+        public static final int action_settings=0x7f0b0003;
+        public static final int btn_status=0x7f0b0001;
+        public static final int edit_status=0x7f0b0002;
+        public static final int refresh_service=0x7f0b0006;
+        public static final int show_preferences=0x7f0b0007;
+        public static final int startService=0x7f0b0004;
+        public static final int stop_service=0x7f0b0005;
+        public static final int txt_status=0x7f0b0000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
     }
     public static final class menu {
-        public static final int main=0x7f090000;
-        public static final int servicemenu=0x7f090001;
+        public static final int main=0x7f0a0000;
+        public static final int servicemenu=0x7f0a0001;
     }
     public static final class string {
         public static final int action_settings=0x7f080001;
