@@ -11,7 +11,7 @@ public class YambaApplication extends Application
 {
 	static final String TAG="YambaApp";
 	private Twitter twitter;
-	SharedPreferences prefs;
+	public SharedPreferences prefs;
 	
 	public void onCreate()
 	{

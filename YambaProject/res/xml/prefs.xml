@@ -16,4 +16,10 @@
         				android:title="Server"
         				android:summary="The app will connect to this server"
 	/>
+    <EditTextPreference android:key="delay"
+        				android:title="Delay"
+        				android:summary="The service waits for the delay period set by the user before it updates the service again"
+       					android:inputType="number"
+        />
+    
 </PreferenceScreen>

@@ -2,17 +2,19 @@ package com.yambaproject;
 
 import java.util.List;
 
-import winterwell.jtwitter.Twitter;
+
 import winterwell.jtwitter.Twitter.Status;
 import winterwell.jtwitter.TwitterException;
 import android.app.Service;
 import android.content.Intent;
+
 import android.os.IBinder;
+
 import android.util.Log;
 public class UpdaterService extends Service {
 
 	static final String TAG="Yamba";
-	static final int DELAY=30000;
+	public static final	int DELAY=30;
 	boolean running=false;
 	@Override
 	public IBinder onBind(Intent arg0) {
@@ -25,6 +27,7 @@ public class UpdaterService extends Service {
 	{
 		super.onCreate();
 		Log.d(TAG,"Service onCreate called");
+		
 		
 	}
 	
@@ -43,7 +46,12 @@ public class UpdaterService extends Service {
 							Log.e(TAG, String.format("%s: %s", status.user.name,status.text));
 						}
 						try {
-							Thread.sleep(DELAY);
+							/*
+							 * firstly,delay cannot be declared as final,this causes errors...
+							 * secondly...use getString and parse to int,otherwise your code throws a CLassCastException
+							 * */
+							int delay=Integer.parseInt(((YambaApplication)getApplication()).prefs.getString("delay", ""+DELAY));
+							Thread.sleep(delay*1000);
 						} catch (InterruptedException e) {
 							// TODO Auto-generated catch block
 							Log.e(TAG,"Interrupted exception",e);
@@ -56,7 +64,7 @@ public class UpdaterService extends Service {
 				{
 					// TODO Auto-generated catch block
 					Log.d(TAG, "Could not retreive tweets", e);
-					e.printStackTrace();
+					//e.printStackTrace();
 				}
 			}
 		}.start();
