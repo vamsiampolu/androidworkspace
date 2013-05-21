@@ -7,12 +7,17 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
+    <!-- Define a permission,this by itself does nothing unless something requires this permission and something provides it-->
+    <permission android:name="com.yambaproject.permission.REFRESH"
+        		android:protectionLevel="dangerous"/>
    
    
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
-    <!-- If this permission is not declared,the broadcast is not sent -->
+    <uses-permission android:name="com.yambaproject.permission.REFRESH"/>
+    <!-- If this permission is not declared,the broadcast is not sent 
+    because you cannot have access to the broadcast,so it is useless to send it you -->
     <application
         android:name="com.yambaproject.YambaApplication"
         android:allowBackup="true"
@@ -35,14 +40,26 @@
   		    <category android:name="android.intent.category.DEFAULT"/>
   		</intent-filter>	   
         </activity>
-        
+       <activity android:name="com.yambaproject.TimelineActivity" 
+           		 android:label="@string/app_name">
+           <intent-filter>
+               <action android:name="com.yambaproject.Timeline"/>
+               <category android:name="android.intent.category.DEFAULT"/>
+           </intent-filter>
+       </activity>
         <service android:name="com.yambaproject.UpdaterService"></service> 
-        <service android:name="com.yambaproject.RefreshService"></service>
+        <service android:name="com.yambaproject.RefreshService"
+            	 android:permission="com.yambaproject.permission.REFRESH">
+  		<intent-filter>
+  		    <action android:name="com.yambaproject.REFRESH_YAMBA"/>
+  		</intent-filter>
+        </service>
         <receiver android:name="com.yambaproject.BootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
+       
             </application>
 
 </manifest>

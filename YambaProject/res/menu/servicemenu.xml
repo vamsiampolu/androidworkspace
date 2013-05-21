@@ -13,5 +13,8 @@
       android:showAsAction="ifRoom|withText"/>	
  <item android:id="@+id/show_preferences"
        android:title="Preferences"
-       android:showAsAction="ifRoom|withText"/>	     
+       android:showAsAction="ifRoom|withText"/>	  
+       <item android:id="@+id/m_timeline"
+             android:title="Timeline"
+             android:showAsAction="ifRoom|withText"/>   
 </menu>

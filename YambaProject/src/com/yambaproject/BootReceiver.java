@@ -13,7 +13,7 @@ public class BootReceiver extends BroadcastReceiver {
 	public void onReceive(Context context, Intent intent) {
 		// TODO Auto-generated method stub
 		//Activities and Services are Context(is a relationship)
-		//BroadcastReceivers have Context...
+		//BroadcastReceivers have Context...(has a relationship)
 		//Context represents the context in which something is running...an Activity,a Service,the Application???
 		//Register to a BroadcastReceiver using IntentFilter,the BroadcastReceiver sends an Intent which is received by all
 		//app components filtering for this...in case of a system wide activity...you must have permission

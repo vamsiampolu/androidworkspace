@@ -35,7 +35,8 @@ public class MainActivity extends Activity {
 	}
 
 	class StatusUpdateTask extends AsyncTask<String, Void, String> {
-
+//No authentication required when you are using public timeline
+//if you use getFriendsTimeline that would require authentication		
 		@Override
 		protected String doInBackground(String... input) {
 			// TODO Auto-generated method stub
@@ -101,7 +102,10 @@ public class MainActivity extends Activity {
 			startActivity(new Intent(getApplicationContext(),
 					PrefsActivity.class));
 			return true;
-		}
+		case R.id.m_timeline:
+			startActivity(new Intent(this,TimelineActivity.class));
+		    return true;
+        }
 		return false;
 	}
 

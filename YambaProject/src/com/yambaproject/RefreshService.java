@@ -34,8 +34,11 @@ public class RefreshService extends IntentService
 		Log.d(TAG,"Refresh IntentService");
 		try {
 			List<Status> timeline=((YambaApplication)getApplication()).getTwitter().getPublicTimeline();
+			StatusData statusData=((YambaApplication)getApplication()).data;
 			for(Status status:timeline)
 			{
+				Log.d(TAG,"Inserting status into database");
+				statusData.insert(status);
 				Log.d(TAG,String.format("%s : %s", status.user.name,status.text));
 			}
 		} catch (TwitterException e) {

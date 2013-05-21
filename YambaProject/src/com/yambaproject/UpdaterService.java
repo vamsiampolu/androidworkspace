@@ -32,7 +32,7 @@ public class UpdaterService extends Service {
 	}
 	
 	public int onStartCommand(Intent intent,int flags,int startId)
-	{
+	{	final StatusData statusData=((YambaApplication)getApplication()).data;
 		running=true;
 		Log.d(TAG,"Service onStartCommand called");
 		new Thread() {
@@ -43,6 +43,7 @@ public class UpdaterService extends Service {
 						List<Status> timeline = ((YambaApplication)getApplication()).getTwitter().getPublicTimeline();
 						for (Status status : timeline)
 						{
+							statusData.insert(status);
 							Log.e(TAG, String.format("%s: %s", status.user.name,status.text));
 						}
 						try {
