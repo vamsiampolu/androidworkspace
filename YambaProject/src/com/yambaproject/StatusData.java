@@ -12,6 +12,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+import winterwell.jtwitter.TwitterException;
 
 public class StatusData 
 {
@@ -61,6 +62,8 @@ public class StatusData
 		}
 		
 	}
+
+
 	
 	@TargetApi(Build.VERSION_CODES.FROYO)
     public void insert(Status status)

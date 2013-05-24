@@ -15,6 +15,6 @@
        android:title="Preferences"
        android:showAsAction="ifRoom|withText"/>	  
        <item android:id="@+id/m_timeline"
-             android:title="Timeline"
+             android:title="Update"
              android:showAsAction="ifRoom|withText"/>   
 </menu>

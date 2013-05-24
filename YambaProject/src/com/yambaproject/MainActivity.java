@@ -72,41 +72,5 @@ public class MainActivity extends Activity {
 	// Setting an onClick attribute in xml
 	// and using it directly in Java Reflection is used to accomplish this
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		// Only called once,when the user clicks the menu button for the first
-		// time
-		getMenuInflater().inflate(R.menu.servicemenu, menu);
-		return true;
-	}
-
-	public boolean onOptionsItemSelected(MenuItem item) {
-		Intent updaterIntent = new Intent(this,
-				com.yambaproject.UpdaterService.class);
-		Intent refreshIntent = new Intent(this,
-				com.yambaproject.RefreshService.class);
-		switch (item.getItemId()) {
-		case R.id.startService:
-			startService(updaterIntent);
-			Toast.makeText(this, "Service started", Toast.LENGTH_SHORT).show();
-			return true;
-		case R.id.stop_service:
-			stopService(updaterIntent);
-			Toast.makeText(this, "Service stopped", Toast.LENGTH_SHORT).show();
-			return true;
-		case R.id.refresh_service:
-			startService(refreshIntent);
-			return true;
-		case R.id.show_preferences:
-			startActivity(new Intent(getApplicationContext(),
-					PrefsActivity.class));
-			return true;
-		case R.id.m_timeline:
-			startActivity(new Intent(this,TimelineActivity.class));
-		    return true;
-        }
-		return false;
-	}
 
 }

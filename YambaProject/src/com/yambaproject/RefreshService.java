@@ -32,20 +32,7 @@ public class RefreshService extends IntentService
 	{
 		// TODO Auto-generated method stub
 		Log.d(TAG,"Refresh IntentService");
-		try {
-			List<Status> timeline=((YambaApplication)getApplication()).getTwitter().getPublicTimeline();
-			StatusData statusData=((YambaApplication)getApplication()).data;
-			for(Status status:timeline)
-			{
-				Log.d(TAG,"Inserting status into database");
-				statusData.insert(status);
-				Log.d(TAG,String.format("%s : %s", status.user.name,status.text));
-			}
-		} catch (TwitterException e) {
-			// TODO Auto-generated catch block
-			//e.printStackTrace();
-			Log.e(TAG, "Resfresh Intent Service failed to access twitter timeline",e);
-		}
+        ((YambaApplication)getApplication()).pullAndInsert();
 		Log.d(TAG,"Refresh IntentService onHandleIntent called");
 	}
 	

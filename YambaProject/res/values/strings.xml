@@ -8,12 +8,14 @@
     <string name="stop_service">Stop Service</string>
     <string name="refresh_service">Refresh Service</string>
     <string name="editpref_key">editpref</string>
+    <string name="timeline">Timeline</string>
     <string-array name="delay_entries">
         <item>Every five seconds</item>
         <item>Every ten seconds</item>
         <item>Every thirty seconds</item>
         <item>Every minute</item>
         <item>Every five minutes</item>
+        <item>Every fifteen minutes</item>
         </string-array>
 
     <string-array name="delay_values">
@@ -22,6 +24,7 @@
         <item>30</item>
         <item>60</item>
         <item>300</item>
+        <item>900</item>
     </string-array>
     
 </resources>

@@ -26,56 +26,40 @@ public class UpdaterService extends Service {
 	public void onCreate()
 	{
 		super.onCreate();
-		Log.d(TAG,"Service onCreate called");
+		Log.d(TAG,"UpdaterService onCreate called");
 		
 		
 	}
 	
 	public int onStartCommand(Intent intent,int flags,int startId)
-	{	final StatusData statusData=((YambaApplication)getApplication()).data;
+	{
 		running=true;
-		Log.d(TAG,"Service onStartCommand called");
-		new Thread() {
-			public void run() {
-				try {
-					while(running)
-					{
-						List<Status> timeline = ((YambaApplication)getApplication()).getTwitter().getPublicTimeline();
-						for (Status status : timeline)
-						{
-							statusData.insert(status);
-							Log.e(TAG, String.format("%s: %s", status.user.name,status.text));
-						}
-						try {
-							/*
-							 * firstly,delay cannot be declared as final,this causes errors...
-							 * secondly...use getString and parse to int,otherwise your code throws a CLassCastException
-							 * */
-							int delay=Integer.parseInt(((YambaApplication)getApplication()).prefs.getString("delay", ""+DELAY));
-							Thread.sleep(delay*1000);
-						} catch (InterruptedException e) {
-							// TODO Auto-generated catch block
-							Log.e(TAG,"Interrupted exception",e);
-							//e.printStackTrace();
-						}
-					}				
-				}
-				 
-				catch (TwitterException e) 
-				{
-					// TODO Auto-generated catch block
-					Log.d(TAG, "Could not retreive tweets", e);
-					//e.printStackTrace();
-				}
-			}
-		}.start();
-		return super.onStartCommand(intent, flags, startId);
-	}
+
+		Log.d(TAG,"UpdaterService onStartCommand called");
+        new Thread()
+        {
+            public void run()
+            {
+                ((YambaApplication)getApplication()).pullAndInsert();
+               int delay=Integer.parseInt(((YambaApplication)getApplication()).prefs.getString("delay","3"));
+                try
+                {
+
+                    Thread.sleep(delay*1000);
+                }
+                catch(InterruptedException ex)
+                {
+                    Log.d(TAG,"UpdaterService Error implementing delay",ex);
+                }
+            }
+        }.start();
+        return super.onStartCommand(intent,flags,startId);
+    }
 	
 	public void onDestroy()
 	{
 		super.onDestroy();
-		Log.d(TAG,"Service onDestroy called");
+		Log.d(TAG,"UpdaterService onDestroy called");
 		running=false;
 	}
 
