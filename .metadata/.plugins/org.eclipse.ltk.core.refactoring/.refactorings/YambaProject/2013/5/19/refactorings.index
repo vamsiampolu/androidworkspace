@@ -4,3 +4,5 @@
 1368096499821	Copy source folder
 1368103303122	Extracts string 'null' into R.string.start_service
 1368103568422	Extracts string 'null' into R.string.stop_service
+1368251853914	Extracts string 'null' into R.string.refresh_service
+1368264069691	Extracts string 'null' into R.string.editpref_key

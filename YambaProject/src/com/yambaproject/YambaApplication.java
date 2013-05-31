@@ -34,9 +34,9 @@ public class YambaApplication extends Application implements OnSharedPreferenceC
 		if(twitter==null)
 		{
 			
-			String username=prefs.getString(getString(R.string.editpref_key), "");
-			String password=prefs.getString("password", "");
-			String server=prefs.getString("server", "");		
+			String username=prefs.getString(getString(R.string.editpref_key), "student");
+			String password=prefs.getString("password", "password");
+			String server=prefs.getString("server", "http://yamba.marakana.com/api");
 			twitter=new Twitter(username,password);
 			twitter.setAPIRootUrl(server);
 		}
@@ -50,42 +50,40 @@ public class YambaApplication extends Application implements OnSharedPreferenceC
 		// TODO Auto-generated method stub
 		twitter=null;
 		this.prefs=sharedPreferences;
+        if(prefs==null)
+        {
+            startActivity(new Intent(this,PrefsActivity.class));
+        }
 		Log.d(TAG,"Twitter object is going to be reinitialized because shared preferences "+key +"changed");
 	}
 
-    public void pullAndInsert()
+    public synchronized void pullAndInsert()
     {
-        int count=0;
-        long lastTimeStamp=-1;
-        long largest=-1;
 
         try
         {
             List<Twitter.Status> timeline=getTwitter().getPublicTimeline();
             StatusData statusData=data;
-            long time;
             for(Twitter.Status status:timeline)
             {
                 Log.d(TAG,"Inserting status into database");
                 statusData.insert(status);
-                //time=status.createdAt.getTime();
-
             }
-
         }
         catch (TwitterException e)
         {
 
             //e.printStackTrace();
-            Log.e(TAG, "Refresh Intent Service failed to access twitter timeline",e);
+            Log.e(TAG, "Update Service failed to access twitter timeline",e);
         }
-
-            lastTimeStamp=largest;
-            if(count>0)
-            {
-                Log.d(TAG,"you have "+count+" new tweets");
-            }
-            sendBroadcast(new Intent(YambaApplication.ACTION_NEW_STATUS));
+        catch(NullPointerException nex)
+        {
+            Log.e(TAG,"Null pointer exception",nex);
+        }
+        catch(RuntimeException rex)
+        {
+            Log.d(TAG,"runtime exception",rex);
+        }
 
     }
 

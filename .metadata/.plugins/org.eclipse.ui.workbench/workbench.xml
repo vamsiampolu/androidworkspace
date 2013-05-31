@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="36" version="2.0">
+<workbench progressCount="33" version="2.0">
 <workbenchAdvisor/>
-<window height="760" maximized="true" width="1024" x="125" y="0">
+<window height="760" maximized="true" width="1024" x="-11" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="250"/>
@@ -28,7 +28,7 @@
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -45,11 +45,12 @@
 </folder>
 </info>
 </editorArea>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="activity_main.xml" path="E:/androidworkspace/StylesAndThemes/res/layout/activity_main.xml" title="activity_main.xml" tooltip="StylesAndThemes/res/layout/activity_main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/StylesAndThemes/res/layout/activity_main.xml"/>
+<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="activity_main.xml" path="E:/androidworkspace/MonsterContacts/res/layout/activity_main.xml" title="activity_main.xml" tooltip="MonsterContacts/res/layout/activity_main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MonsterContacts/res/layout/activity_main.xml"/>
 </editor>
-<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="styles.xml" partName="styles.xml" path="E:/androidworkspace/StylesAndThemes/res/values/styles.xml" title="styles.xml" tooltip="StylesAndThemes/res/values/styles.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/StylesAndThemes/res/values/styles.xml"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="E:/androidworkspace/MonsterContacts/src/com/monstercontacts/MainActivity.java" title="MainActivity.java" tooltip="MonsterContacts/src/com/monstercontacts/MainActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MonsterContacts/src/com/monstercontacts/MainActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -61,7 +62,7 @@
 </view>
 <view id="com.android.ide.eclipse.adt.internal.lint.LintViewPart" partName="Lint Warnings">
 <viewState>
-<lintColWidth CategoryColumn="120" LocationColumn="210" MessageColumn="654"/>
+<lintColWidth CategoryColumn="120" LocationColumn="210" MessageColumn="676"/>
 <lintColVisible CategoryColumn="true" LocationColumn="true" MessageColumn="true"/>
 </viewState>
 </view>
@@ -238,15 +239,23 @@
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.jdt.ui.JavadocView"/>
 <fastViewBars>
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.jdt.ui.JavadocView" style="0">
+<fastViews>
+<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
 <fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@a3a19b" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
 <fastViews>
 <view id="com.android.ide.eclipse.adt.internal.lint.LintViewPart" ratio="0.29923666"/>
 <view id="org.eclipse.ui.views.ProgressView" ratio="0.29923666"/>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29923666"/>
-<view id="com.android.ide.eclipse.ddms.views.LogCatView" ratio="0.27328244"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.2977099"/>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView" ratio="0.27175573"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
@@ -284,26 +293,22 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.19404186" ratioLeft="241" ratioRight="1001" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.74960876" ratioLeft="479" ratioRight="160" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.jdt.ui.JavadocView" appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.60097563" ratioLeft="616" ratioRight="409" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@9f9d63" ratio="0.49949747" ratioLeft="497" ratioRight="498" relationship="2" relative="org.eclipse.ui.editorss">
@@ -433,121 +438,163 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/YambaProject/src/com/yambaproject/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/YambaProject/src/com/yambaproject/UpdaterService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/YambaProject/res/layout/timeline_activity.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/YambaProject/src/com/yambaproject/TimelineActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/YambaProject/AndroidManifest.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/YambaProject/res/menu/servicemenu.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/YambaProject/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/YambaProject/res/values/my_style.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/YambaProject/res/values/colors.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MyMapExample/src/com/example/mymapexample/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/MyMapExample/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MyMapExample/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MyMapExample/src/com/example/mymapexample/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MyMapExample/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/StylesAndThemes/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/StylesAndThemes/res/values/styles.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/StylesAndThemes/res/layout/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/YambaProject/src/com/yambaproject/MainActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/YambaProject/res/layout/timeline_activity.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/YambaProject/src/com/yambaproject/StatusData.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/YambaProject/src/com/yambaproject/TimelineActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/YambaProject/src/com/yambaproject/MainActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/YambaProject/res/layout/timeline_activity.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/YambaProject/src/com/yambaproject/YambaApplication.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/YambaProject/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/YambaProject/src/com/yambaproject/PrefsActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/YambaProject/res/menu/main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/YambaProject/res/menu/servicemenu.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/YambaProject/src/com/yambaproject/YambaApplication.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/YambaProject/res/layout/timeline_activity.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/YambaProject/src/com/yambaproject/StatusData.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MonsterContacts/res/layout/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MonsterContacts/src/com/monstercontacts/MainActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MonsterContacts/src/com/monstercontacts/MainActivity.java"/>
 </editors>
-<item historyLabel="servicemenu.xml" index="2"/>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="1902" y="0"/>
+<item historyLabel="timeline_activity.xml" index="0"/>
+<item historyLabel="TimelineActivity.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="2803" y="0"/>
+<item historyLabel="TimelineActivity.java" index="1">
+<position info="not_deleted" x="232" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="2782" y="0"/>
+<item historyLabel="TimelineActivity.java" index="1">
+<position info="not_deleted" x="292" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="2586" y="1"/>
+<item historyLabel="YambaProject Manifest" index="2"/>
+<item historyLabel="servicemenu.xml" index="3"/>
+<item historyLabel="MainActivity.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="2623" y="0"/>
+<item historyLabel="MainActivity.java" index="4">
+<position info="not_deleted" x="3212" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="2777" y="0"/>
+<item historyLabel="YambaProject Manifest" index="2"/>
+<item historyLabel="MainActivity.java" index="4">
+<position info="not_deleted" x="3212" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="2494" y="4"/>
+<item historyLabel="timeline_activity.xml" index="5"/>
+<item historyLabel="StatusData.java" index="6">
+<position info="not_deleted" x="1803" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="2750" y="1"/>
+<item historyLabel="StatusData.java" index="6">
+<position info="not_deleted" x="2932" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="2777" y="0"/>
+<item historyLabel="StatusData.java" index="6">
+<position info="not_deleted" x="2770" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="2559" y="0"/>
+<item historyLabel="StatusData.java" index="6">
+<position info="not_deleted" x="2553" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="2704" y="0"/>
+<item historyLabel="StatusData.java" index="6">
+<position info="not_deleted" x="2628" y="0"/>
 </item>
-<item historyLabel="UpdaterService.java" index="1">
-<position info="not_deleted" x="581" y="0"/>
+<item historyLabel="StatusData.java" index="6">
+<position info="not_deleted" x="2634" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="1182" y="111"/>
+<item historyLabel="StatusData.java" index="6">
+<position info="not_deleted" x="2646" y="0"/>
 </item>
-<item historyLabel="UpdaterService.java" index="1">
-<position info="not_deleted" x="581" y="0"/>
+<item historyLabel="StatusData.java" index="6">
+<position info="not_deleted" x="2658" y="0"/>
 </item>
-<item historyLabel="UpdaterService.java" index="1">
-<position info="not_deleted" x="1147" y="0"/>
+<item historyLabel="StatusData.java" index="6">
+<position info="not_deleted" x="2682" y="0"/>
 </item>
-<item historyLabel="UpdaterService.java" index="1">
-<position info="not_deleted" x="1405" y="0"/>
+<item historyLabel="StatusData.java" index="6">
+<position info="not_deleted" x="2682" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="1182" y="111"/>
+<item historyLabel="StatusData.java" index="6">
+<position info="not_deleted" x="2929" y="0"/>
 </item>
-<item historyLabel="servicemenu.xml" index="2"/>
-<item historyLabel="activity_main.xml" index="3"/>
-<item historyLabel="my_style.xml" index="4"/>
-<item historyLabel="colors.xml" index="5"/>
-<item historyLabel="MainActivity.java" index="6">
-<position info="not_deleted" x="536" y="0"/>
+<item historyLabel="StatusData.java" index="6">
+<position info="not_deleted" x="2897" y="0"/>
 </item>
-<item historyLabel="MyMapExample Manifest" index="7"/>
-<item historyLabel="activity_main.xml" index="8"/>
-<item historyLabel="MainActivity.java" index="6">
-<position info="not_deleted" x="529" y="0"/>
+<item historyLabel="TimelineActivity.java" index="7">
+<position info="not_deleted" x="446" y="0"/>
 </item>
-<item historyLabel="MyMapExample Manifest" index="7"/>
-<item historyLabel="MainActivity.java" index="9">
-<position info="not_deleted" x="529" y="0"/>
+<item historyLabel="TimelineActivity.java" index="7">
+<position info="not_deleted" x="425" y="0"/>
 </item>
-<item historyLabel="activity_main.xml" index="10"/>
-<item historyLabel="activity_main.xml" index="11"/>
-<item historyLabel="styles.xml" index="12"/>
-<item historyLabel="activity_main.xml" index="11"/>
-<item historyLabel="styles.xml" index="12"/>
-<item historyLabel="activity_main.xml" index="11"/>
-<item historyLabel="styles.xml" index="12"/>
-<item historyLabel="activity_main.xml" index="11"/>
-<item historyLabel="styles.xml" index="12"/>
-<item historyLabel="activity_main.xml" index="11"/>
-<item historyLabel="styles.xml" index="12"/>
-<item historyLabel="activity_main.xml" index="11"/>
-<item historyLabel="styles.xml" index="12"/>
-<item historyLabel="activity_main.xml" index="11"/>
-<item historyLabel="styles.xml" index="12"/>
-<item historyLabel="activity_main.xml" index="11">
-<position info="not_deleted" x="1695" y="0"/>
+<item historyLabel="TimelineActivity.java" index="7">
+<position info="not_deleted" x="381" y="0"/>
 </item>
-<item historyLabel="activity_main.xml" index="13">
-<position info="not_deleted" x="1472" y="0"/>
+<item historyLabel="TimelineActivity.java" index="7">
+<position info="not_deleted" x="365" y="0"/>
 </item>
-<item historyLabel="styles.xml" index="12"/>
-<item historyLabel="activity_main.xml" index="11"/>
-<item historyLabel="styles.xml" index="12"/>
-<item historyLabel="activity_main.xml" index="11"/>
-<item active="true" historyLabel="styles.xml" index="12"/>
+<item historyLabel="MainActivity.java" index="8">
+<position info="not_deleted" x="2976" y="0"/>
+</item>
+<item historyLabel="timeline_activity.xml" index="9"/>
+<item historyLabel="YambaApplication.java" index="10">
+<position info="not_deleted" x="1043" y="0"/>
+</item>
+<item historyLabel="TimelineActivity.java" index="7">
+<position info="not_deleted" x="446" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="8">
+<position info="not_deleted" x="2976" y="0"/>
+</item>
+<item historyLabel="TimelineActivity.java" index="7">
+<position info="not_deleted" x="381" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="8">
+<position info="not_deleted" x="2976" y="0"/>
+</item>
+<item historyLabel="YambaProject Manifest" index="11"/>
+<item historyLabel="MainActivity.java" index="8">
+<position info="not_deleted" x="730" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="8">
+<position info="not_deleted" x="2940" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="8">
+<position info="not_deleted" x="730" y="0"/>
+</item>
+<item historyLabel="PrefsActivity.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.xml" index="13"/>
+<item historyLabel="PrefsActivity.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="servicemenu.xml" index="14"/>
+<item historyLabel="YambaApplication.java" index="15">
+<position info="not_deleted" x="1463" y="0"/>
+</item>
+<item historyLabel="timeline_activity.xml" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="StatusData.java" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="18"/>
+<item historyLabel="MainActivity.java" index="19">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="18"/>
+<item historyLabel="MainActivity.java" index="20">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="activity_main.xml" index="18"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="right"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -557,54 +604,55 @@
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.HeapStatus"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@a3a19b"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="edit_text_rounded.png" tooltip="StylesAndThemes/res/drawable-hdpi/edit_text_rounded.png">
-<persistable path="/StylesAndThemes/res/drawable-hdpi/edit_text_rounded.png"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="MonsterContacts/src/com/monstercontacts/MainActivity.java">
+<persistable path="/MonsterContacts/src/com/monstercontacts/MainActivity.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="styles.xml" tooltip="StylesAndThemes/res/values/styles.xml">
-<persistable path="/StylesAndThemes/res/values/styles.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="StylesAndThemes/res/layout/activity_main.xml">
-<persistable path="/StylesAndThemes/res/layout/activity_main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="MyMapExample/res/layout/activity_main.xml">
-<persistable path="/MyMapExample/res/layout/activity_main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="MyMapExample/AndroidManifest.xml">
-<persistable path="/MyMapExample/AndroidManifest.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="MyMapExample/src/com/example/mymapexample/MainActivity.java">
-<persistable path="/MyMapExample/src/com/example/mymapexample/MainActivity.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="servicemenu.xml" tooltip="YambaProject/res/menu/servicemenu.xml">
-<persistable path="/YambaProject/res/menu/servicemenu.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="MonsterContacts/res/layout/activity_main.xml">
+<persistable path="/MonsterContacts/res/layout/activity_main.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="YambaProject/res/menu/main.xml">
 <persistable path="/YambaProject/res/menu/main.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UpdaterService.java" tooltip="YambaProject/src/com/yambaproject/UpdaterService.java">
-<persistable path="/YambaProject/src/com/yambaproject/UpdaterService.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrefsActivity.java" tooltip="YambaProject/src/com/yambaproject/PrefsActivity.java">
+<persistable path="/YambaProject/src/com/yambaproject/PrefsActivity.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="YambaProject/src/com/yambaproject/MainActivity.java">
 <persistable path="/YambaProject/src/com/yambaproject/MainActivity.java"/>
 </file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="servicemenu.xml" tooltip="YambaProject/res/menu/servicemenu.xml">
+<persistable path="/YambaProject/res/menu/servicemenu.xml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="YambaProject/AndroidManifest.xml">
 <persistable path="/YambaProject/AndroidManifest.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="my_style.xml" tooltip="YambaProject/res/values/my_style.xml">
-<persistable path="/YambaProject/res/values/my_style.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimelineActivity.java" tooltip="YambaProject/src/com/yambaproject/TimelineActivity.java">
+<persistable path="/YambaProject/src/com/yambaproject/TimelineActivity.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="colors.xml" tooltip="YambaProject/res/values/colors.xml">
-<persistable path="/YambaProject/res/values/colors.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="timeline_activity.xml" tooltip="YambaProject/res/layout/timeline_activity.xml">
+<persistable path="/YambaProject/res/layout/timeline_activity.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.color.ColorEditor" name="colors.xml" tooltip="YambaProject/res/drawable/colors.xml">
-<persistable path="/YambaProject/res/drawable/colors.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BootReceiver.java" tooltip="YambaProject/src/com/yambaproject/BootReceiver.java">
+<persistable path="/YambaProject/src/com/yambaproject/BootReceiver.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="color.xml" tooltip="YambaProject/res/color/color.xml">
-<persistable path="/YambaProject/res/color/color.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UpdaterService.java" tooltip="YambaProject/src/com/yambaproject/UpdaterService.java">
+<persistable path="/YambaProject/src/com/yambaproject/UpdaterService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RefreshService.java" tooltip="YambaProject/src/com/yambaproject/RefreshService.java">
+<persistable path="/YambaProject/src/com/yambaproject/RefreshService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="YambaApplication.java" tooltip="YambaProject/src/com/yambaproject/YambaApplication.java">
+<persistable path="/YambaProject/src/com/yambaproject/YambaApplication.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StatusData.java" tooltip="YambaProject/src/com/yambaproject/StatusData.java">
+<persistable path="/YambaProject/src/com/yambaproject/StatusData.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_home.xml" tooltip="ActionBarNavigation/res/layout/activity_home.xml">
+<persistable path="/ActionBarNavigation/res/layout/activity_home.xml"/>
 </file>
 </mruList>
 </workbench>

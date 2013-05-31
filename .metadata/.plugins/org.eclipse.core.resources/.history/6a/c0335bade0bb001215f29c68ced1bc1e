@@ -1,0 +1,78 @@
+package com.tabbedactionbar;
+
+import android.os.Bundle;
+import android.app.ActionBar;
+import android.app.ActionBar.Tab;
+import android.app.Activity;
+import android.app.Fragment;
+import android.app.FragmentTransaction;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		ActionBar actionBar=getActionBar();
+		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+		actionBar.setTitle("Tabbed Layout");//ActionBar name is set to app name by default but you can set it to anything.
+		
+		ActionBar.Tab frag_A_Tab=actionBar.newTab().setText("Fragment A");
+		ActionBar.Tab frag_B_tab=actionBar.newTab().setText("Fragment B");
+		ActionBar.Tab frag_C_tab=actionBar.newTab().setText("Fragment C");
+		ActionBar.Tab frag_D_tab=actionBar.newTab().setText("Fragment D");
+		
+		Fragment fragmentA=new FragmentA();
+		Fragment fragmentB=new FragmentB();
+		Fragment fragmentC=new FragmentC();
+		Fragment fragmentD=new FragmentD();
+		
+		frag_A_Tab.setTabListener(new MyTabListener(fragmentA));
+		frag_B_Tab.setTabListener(new MyTabListener(fragmentB));
+		frag_C_Tab.setTabListener(new MyTabListener(fragmentC));
+		frag_D_Tab.setTabListener(new MyTabListener(fragmentD));
+	
+		actionBar.addTab(frag_A_Tab);
+		actionBar.addTab(frag_B_tab);
+		actionBar.addTab(frag_C_tab);
+		actionBar.addTab(frag_D_tab);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+	
+	public class MyTabListener implements ActionBar.TabListener
+	{
+		public Fragment fragment;
+		
+		public MyTabListener(Fragment frag)
+		{
+			fragment=frag;
+		}
+
+		@Override
+		public void onTabReselected(Tab tab, FragmentTransaction ft) {
+			// TODO Auto-generated method stub
+			//ft.replace(R., fragment)
+		}
+
+		@Override
+		public void onTabSelected(Tab tab, FragmentTransaction ft) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void onTabUnselected(Tab tab, FragmentTransaction ft) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+
+}

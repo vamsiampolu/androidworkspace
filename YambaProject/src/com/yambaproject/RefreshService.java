@@ -30,15 +30,14 @@ public class RefreshService extends IntentService
 	@Override
 	protected void onHandleIntent(Intent intent)
 	{
-		// TODO Auto-generated method stub
-		Log.d(TAG,"Refresh IntentService");
+        Log.d(TAG,"Refresh IntentService onHandleIntent called");
         ((YambaApplication)getApplication()).pullAndInsert();
-		Log.d(TAG,"Refresh IntentService onHandleIntent called");
+
 	}
 	
 	public void onDestroy()
 	{
 		super.onDestroy();
-		Log.d(TAG,"Resfresh IntentService destroyed");
+		Log.d(TAG,"Refresh IntentService destroyed");
 	}
 }

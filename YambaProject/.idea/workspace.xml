@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState>
+        <option name="visible" value="false" />
+      </GlobalState>
+    </option>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d596c228-b8fe-4c25-b1bd-1beca8b57760" name="Default" comment="">
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\12\607dc41406b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\12\e0e1410276b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\15\60b8281f2fb9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\15\b016ac1391b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\15\f0da507f86b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\16\8082009ad3b400121ed4defc0739f051" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\17\805dc9c09bb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\19\404a8a5e72b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\1a\c0b0006672b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\1b\f058bfe906b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\1c\00b690a640b600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\1f\c06cbb0278b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\1f\e0e18ef279b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\20\90907bf807b60012104aafbd3c222ada" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\20\c0ca203b77b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\20\d0b7f7eb79b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\20\e09f72db2fb9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\20\e0cc5596c9b300121456eb2b388e0a3e" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\23\80971ba96db800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\23\d0a89e8105b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\25\3005a32b73b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\25\40f0f71b0db60012104aafbd3c222ada" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\25\c0a8465ca7b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\26\5038ed1b72b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\26\50403c63c4b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\26\50bf03573fb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\26\b07efd8074b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\26\f059970530b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\27\600e086c37b600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\28\701b2c3e44b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\28\d00135417ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\29\20df52781db600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\2\00058e2cc1b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\2f\4088303e44b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\36\406f910a03b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\37\00f88188dcb400121ed4defc0739f051" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\37\70dfbb4106b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\3\005b3a07c1b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\3\70e4b77f44b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\3a\5012941174b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\3a\8014f28a88b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\3a\a0a73eef88b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\3c\40a9fd1075b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\3c\70271d2d86b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\3d\606621508ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\3d\d0f88d4675b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\40\50c4aa07a6b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\44\106f5ade96b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\44\e0b66e309bb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\46\2072e7428db800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\47\6080473c1ab600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\47\f0b874ac3eb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\48\40ded14f73b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\4a\208336308bb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\4b\401c82349bb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\4b\80cd0c11ddb400121ed4defc0739f051" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\4c\7053374d06b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\4e\f033354989b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\50\80e8484750b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\50\90424158a6b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\51\601d6586dab400121ed4defc0739f051" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\52\40f6460e8cb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\53\60f6ea9e96b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\55\30261b6ec4b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\55\50ce3e690db60012104aafbd3c222ada" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\55\7000365288b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\57\50a8305675b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\57\80785536a2b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\58\c05b354577b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\59\d0c99b1572b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\5\200fba0ea7b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\5\40061f9355b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\5a\10b6c4e38fb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\5b\408eb3dd76b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\5b\80720c627ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\5d\50970a393ab600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\5d\900a129f1eb600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\60\e0a1cd9aa4b400121ed4defc0739f051" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\61\5045ca9473b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\61\d09879c64fb400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\62\f05cc56f86b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\63\b08f5b0e8cb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\64\2063d0eaabb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\65\404ba88e73b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\65\50c66cbe1eb600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\65\e0f4aaf337b600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\65\f05ad0a5abb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\66\20e1fdd2dab400121ed4defc0739f051" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\67\502f77013bb600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\67\509a17057ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\67\d08ffc7c56b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\67\f0b0612a86b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\68\00ef395a19b600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\68\10242c558ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\6\00ee5ddd93b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\6a\f0ef25f507b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\6b\40e192ed47b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\6c\4092cc3377b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\6c\f01b1f7107b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\6d\501e835b2eb9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\6d\90f7b5999ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\6d\f0315dd379b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\6d\f0df54bd8ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\70\807294aa86b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\72\30ab423740b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\72\e0f14eb806b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\72\f0237d0a03b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\74\4015762911b60012104aafbd3c222ada" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\76\101adfbc92b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\76\e0489c3152b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\77\104741ba08b60012104aafbd3c222ada" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\7\c0d954e976b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\7c\5056ec147ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\7f\20c0d71176b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\80\a05d69b28fb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\81\f0b94afd7ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\83\905d9f7d8ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\83\c05bc96874b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\86\0050138f9db800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\86\b0916ca207b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\89\108a569a39b600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\89\6065b15c8fb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\8\606de9b22fb9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\8\90ec5686dab400121ed4defc0739f051" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\8\b0b1e28844b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\8a\30f246ac3eb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\8b\40194d541ab600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\8b\d078350041b600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\8d\f038a8e385b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\8f\00089e5a8ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\8f\00c5f91b0db60012104aafbd3c222ada" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\8f\a037072a04b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\91\00819be744b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\91\50fca54977b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\95\d0fcb90775b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\97\906a13cf8ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\97\b0f6abe146b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\98\20cb179b92b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\99\00b7800ea4b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\9\7089e4c2a8b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\9a\e0e1829a05b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\9d\2096f5988cb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\9d\a0753b5a19b600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\9f\007f925a79b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\9f\c06f43ac3eb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\a0\60e615d392b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\a2\0093e8cd54b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\a2\20ad1aa96db800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\a3\30da79c27bb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\a5\00465db1a9b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\a5\a03b7e4110b60012104aafbd3c222ada" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\a7\d0d24f1173b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\a8\00ca156c37b600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\a9\00fd62968fb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\a9\c07ed7fa74b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\aa\803ec33b54b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\aa\9010cf388db800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\aa\f02dfcab88b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\ab\c047abb374b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\ac\f0b017599cb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\ad\50ab185b3fb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\af\103d234c92b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\af\70e807a96db800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\b0\700f71ac3eb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\b0\70309ec907b60012104aafbd3c222ada" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\b1\60d9fd10ddb400121ed4defc0739f051" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\b3\904515829bb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\b6\9057e3458eb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\b6\f04b1df72fb9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\b7\3039d582a6b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\b7\50a9d67b7bb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\b8\303a76ea74b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\b9\106139e6d5b400121ed4defc0739f051" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\ba\908c936ba6b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\bb\50f5e6c105b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\bd\30e432d69ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\bd\60160d9b8ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\bd\902d1cc785b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\be\d07c539a39b600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\bf\6009d75d0db60012104aafbd3c222ada" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\c0\20fa595a19b600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\c0\9044473e44b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\c0\b02943a69ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\c2\50891d9077b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\c3\80b8203754b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\c4\5040be6805b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\c4\5059397a05b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\c5\907977cda5b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\c5\a0973c451ab600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\c6\e0ffd19e85b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\c7\d0888c4b54b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\c8\90d9e9068bb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\c\80a3091c0db60012104aafbd3c222ada" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\c\c0805b5a19b600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\cd\80848fc805b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\cd\903a90fa8ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\cd\907a1dfa95b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\ce\0077801730b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\ce\6091c19687b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\cf\40117b2873b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\cf\60a48e2d7ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\d0\00c74a3e44b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\d0\70093ece9bb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\d3\20c2bb7d4bb400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\d3\d033e5e92fb9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\d4\a0d17e0a03b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\d4\b006e6a273b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\d5\50d7051541b600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\d6\7067f2df86b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\d9\c022a75673b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\da\e084900a03b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\de\00d7089b92b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\de\307e73ed0fb60012104aafbd3c222ada" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\de\e06e93fa8ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\df\e054716547b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\e0\30eb4e43d7b400121ed4defc0739f051" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\e0\60a30ca96db800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\e0\80d3f1a68ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\e3\001c2c1aa1b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\e3\40d1d782a6b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\e3\a0c4c783a8b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\e5\40d6e96d72b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\e5\50ffb54dc4b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\e5\70b4bd518eb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\e5\f0f9411586b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\e6\e0892acb85b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\e7\f09d46c9a1b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\e8\704a2b6595b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\e9\d01c26e579b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\e\306c137e76b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\e\d0b3b7ce7bb800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\eb\30e0081c0db60012104aafbd3c222ada" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\eb\b02a435a72b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\ed\50d365902fb9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\ee\d0ee50383bb600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\f1\80490e3341b600121a1de6867c5a25ff" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\f3\90f41fde8ab800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\f3\f0cea8ac07b9001212e3a53764d3c4f1" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\f6\208974bb56b400121f64e8ade768b83a" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\f7\c0daf25179b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\f8\b03b79a779b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\f8\d03b94f0a4b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\f9\3075bf4dc4b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.history\fe\f07d106188b800121819d64ca79e9493" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MyEmailExample\.indexes\a0\d6\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MyEmailExample\.indexes\a0\de\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MyEmailExample\.indexes\af\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MyEmailExample\.indexes\e4\81\fa\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MyEmailExample\.indexes\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MyMapExample\.indexes\a0\d6\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MyMapExample\.indexes\a0\de\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MyMapExample\.indexes\af\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MyMapExample\.indexes\e4\81\96\c6\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MyMapExample\.indexes\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MySMSExample\.indexes\a0\d6\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MySMSExample\.indexes\a0\de\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MySMSExample\.indexes\af\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MySMSExample\.indexes\e4\81\63\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MySMSExample\.indexes\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MySecondContentprovider\.indexes\e4\81\4a\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MySecondSMSExample\.indexes\a0\d6\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MySecondSMSExample\.indexes\a0\de\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MySecondSMSExample\.indexes\af\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MySecondSMSExample\.indexes\e4\81\11\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MySecondSMSExample\.indexes\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SpiderManExample\.indexes\a0\5f\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SpiderManExample\.indexes\a0\66\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SpiderManExample\.indexes\a0\cd\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SpiderManExample\.indexes\a0\d6\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SpiderManExample\.indexes\a0\de\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SpiderManExample\.indexes\a0\eb\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SpiderManExample\.indexes\a0\ee\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SpiderManExample\.indexes\e4\81\96\75\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SpiderManExample\.indexes\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SpiderManExample\.markers" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SpiderManExample\10.tree" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SpiderManExample\org.eclipse.jdt.core\state.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\StylesAndThemes\.indexes\a0\d6\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\StylesAndThemes\.indexes\a0\de\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\StylesAndThemes\.indexes\af\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\StylesAndThemes\.indexes\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\YambaProject\.indexes\a0\5f\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\YambaProject\.indexes\a0\62\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\YambaProject\.indexes\a0\63\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\YambaProject\.indexes\a0\de\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\YambaProject\.indexes\af\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\YambaProject\.indexes\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\androidlove\4.tree" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.core.resources\.root\52.tree" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.jdt.core\1122178717.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.jdt.core\131524474.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.jdt.core\1813513710.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.jdt.core\2308741072.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.jdt.core\2474108870.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.jdt.core\327084696.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.jdt.core\3920788630.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\.metadata\.plugins\org.eclipse.jdt.core\948401957.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\SpiderManExample\bin\classes\com\example\spidermanexample\RegisterActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\SpiderManExample\res\layout\activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\SpiderManExample\src\com\example\spidermanexample\RegisterActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\YambaProject.apk" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\classes\com\yambaproject\R$array.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\classes\com\yambaproject\R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\classes\com\yambaproject\R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\classes\com\yambaproject\R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\classes\com\yambaproject\R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\classes\com\yambaproject\R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\classes\com\yambaproject\R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\classes\com\yambaproject\R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\classes\com\yambaproject\R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\classes\com\yambaproject\R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\classes\com\yambaproject\R$xml.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\classes\com\yambaproject\YambaApplication$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\dexedLibs\android-support-v4-d4557d314149dcdcab316afa7e452f44.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\dexedLibs\jtwitter-yamba-eb5415abfca50a72e2a5299a48638207.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\res\drawable-hdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\res\drawable-mdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\res\drawable-xhdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\res\drawable-xxhdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\bin\resources.ap_" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\YambaProject\jtwitter-yamba.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\androidlove\bin\dexedLibs\android-support-v4-b785a7d4d7d889647629c06a9bdb6045.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\androidworkspace\androidlove\bin\jarlist.cache" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/StylesAndThemes/.markers" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/StylesAndThemes/.markers" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/YambaProject/.markers" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/YambaProject/.markers" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/actionbarsherlock/.markers" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/actionbarsherlock/.markers" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/androidlove/.markers" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/androidlove/.markers" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/YambaProject/1.tree" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/YambaProject/1.tree" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/MainActivity.class" afterPath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/PosterActivity.class" afterPath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/PosterActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/R$id.class" afterPath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/R$integer.class" afterPath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/R$layout.class" afterPath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/R$menu.class" afterPath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/R$string.class" afterPath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/R$style.class" afterPath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/R$styleable.class" afterPath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/ShowImageactivity.class" afterPath="$PROJECT_DIR$/../SpiderManExample/bin/classes/com/example/spidermanexample/ShowImageactivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/bin/SpiderManExample.apk" afterPath="$PROJECT_DIR$/../SpiderManExample/bin/SpiderManExample.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/bin/dexedLibs/actionbarsherlock-8434a91314313e821e65dcd7e43f9c75.jar" afterPath="$PROJECT_DIR$/../SpiderManExample/bin/dexedLibs/actionbarsherlock-8434a91314313e821e65dcd7e43f9c75.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/bin/classes.dex" afterPath="$PROJECT_DIR$/../SpiderManExample/bin/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/YambaProject/.indexes/a0/d6/history.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/YambaProject/.indexes/a0/d6/history.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/YambaProject/.indexes/e4/81/35/history.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/YambaProject/.indexes/e4/81/35/history.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/MyMapExample/.indexes/properties.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/MyMapExample/.indexes/properties.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/YambaProject/.indexes/properties.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/YambaProject/.indexes/properties.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/actionbarsherlock/.indexes/properties.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/actionbarsherlock/.indexes/properties.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/androidlove/.indexes/properties.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/androidlove/.indexes/properties.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/bin/resources.ap_" afterPath="$PROJECT_DIR$/../SpiderManExample/bin/resources.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/MyMapExample/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/MyMapExample/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/StylesAndThemes/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/StylesAndThemes/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/YambaProject/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/YambaProject/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/actionbarsherlock/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/actionbarsherlock/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/androidlove/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/androidlove/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.log" afterPath="$PROJECT_DIR$/../.metadata/.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.cdt.core/.log" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.cdt.core/.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../SpiderManExample/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/bin/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../SpiderManExample/bin/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yambaproject/BootReceiver.java" afterPath="$PROJECT_DIR$/src/com/yambaproject/BootReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/src/com/example/spidermanexample/MainActivity.java" afterPath="$PROJECT_DIR$/../SpiderManExample/src/com/example/spidermanexample/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/gen/com/example/spidermanexample/R.java" afterPath="$PROJECT_DIR$/../SpiderManExample/gen/com/example/spidermanexample/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/bin/R.txt" afterPath="$PROJECT_DIR$/../SpiderManExample/bin/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yambaproject/RefreshService.java" afterPath="$PROJECT_DIR$/src/com/yambaproject/RefreshService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yambaproject/TimelineActivity.java" afterPath="$PROJECT_DIR$/src/com/yambaproject/TimelineActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yambaproject/UpdaterService.java" afterPath="$PROJECT_DIR$/src/com/yambaproject/UpdaterService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yambaproject/YambaApplication.java" afterPath="$PROJECT_DIR$/src/com/yambaproject/YambaApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/YambaProject.launch" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/YambaProject.launch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.equinox.p2.ui/dialog_settings.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.equinox.p2.ui/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.core.prefs" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.core.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/StylesAndThemes/.indexes/a0/de/properties.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/StylesAndThemes/.indexes/a0/de/properties.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/YambaProject/.indexes/a0/d6/properties.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/YambaProject/.indexes/a0/d6/properties.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/YambaProject/.indexes/a0/de/properties.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/YambaProject/.indexes/a0/de/properties.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/YambaProject/2013/5/19/refactorings.history" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/YambaProject/2013/5/19/refactorings.history" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/YambaProject/2013/5/19/refactorings.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/YambaProject/2013/5/19/refactorings.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpiderManExample/res/layout/register_activity.xml" afterPath="$PROJECT_DIR$/../SpiderManExample/res/layout/register_activity.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/workbench.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/workbench.xml" />
+    </list>
+    <ignored path="YambaProject.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/MainActivity.java" changelist="d596c228-b8fe-4c25-b1bd-1beca8b57760" time="1368682842704" ignored="false" />
+    <file path="/TimelineActivity.java" changelist="d596c228-b8fe-4c25-b1bd-1beca8b57760" time="1369393163867" ignored="false" />
+    <file path="/StatusData.java" changelist="d596c228-b8fe-4c25-b1bd-1beca8b57760" time="1369204749166" ignored="false" />
+    <file path="/timeline_activity.xml" changelist="d596c228-b8fe-4c25-b1bd-1beca8b57760" time="1368746582283" ignored="false" />
+    <file path="/YambaApplication.java" changelist="d596c228-b8fe-4c25-b1bd-1beca8b57760" time="1369400416189" ignored="false" />
+    <file path="/Dummy.txt" changelist="d596c228-b8fe-4c25-b1bd-1beca8b57760" time="1369457711421" ignored="false" />
+    <file path="/list_item.xml" changelist="d596c228-b8fe-4c25-b1bd-1beca8b57760" time="1369141158035" ignored="false" />
+    <file path="/fragment.java" changelist="d596c228-b8fe-4c25-b1bd-1beca8b57760" time="1369393514331" ignored="false" />
+    <file path="/strings.xml" changelist="d596c228-b8fe-4c25-b1bd-1beca8b57760" time="1369225600015" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="d596c228-b8fe-4c25-b1bd-1beca8b57760" time="1369398963538" ignored="false" />
+    <file path="/servicemenu.xml" changelist="d596c228-b8fe-4c25-b1bd-1beca8b57760" time="1369140608381" ignored="false" />
+    <file path="/RefreshService.java" changelist="d596c228-b8fe-4c25-b1bd-1beca8b57760" time="1369204990704" ignored="false" />
+    <file path="/UpdaterService.java" changelist="d596c228-b8fe-4c25-b1bd-1beca8b57760" time="1369399026909" ignored="false" />
+    <file path="/BootReceiver.java" changelist="d596c228-b8fe-4c25-b1bd-1beca8b57760" time="1369393332212" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="YambaProject" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yambaproject/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="40" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimelineActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yambaproject/TimelineActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="21" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdaterService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yambaproject/UpdaterService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="85" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.25801012">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="27" selection-start="2153" selection-end="2153" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YambaApplication.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yambaproject/YambaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="23" selection-start="1793" selection-end="1793" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RefreshService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yambaproject/RefreshService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="56" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatusData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yambaproject/StatusData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="45" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BootReceiver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yambaproject/BootReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="63" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/res/layout/timeline_activity.xml" />
+        <option value="$PROJECT_DIR$/src/com/yambaproject/MainActivity.java" />
+        <option value="$PROJECT_DIR$/res/menu/servicemenu.xml" />
+        <option value="$PROJECT_DIR$/res/layout/list_item.xml" />
+        <option value="$PROJECT_DIR$/src/com/yambaproject/StatusData.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/yambaproject/BootReceiver.java" />
+        <option value="$PROJECT_DIR$/src/com/yambaproject/RefreshService.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/yambaproject/UpdaterService.java" />
+        <option value="$PROJECT_DIR$/src/com/yambaproject/TimelineActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/yambaproject/YambaApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="776" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AndroidLintNewApi</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YambaProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YambaProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YambaProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YambaProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YambaProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yambaproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YambaProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YambaProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YambaProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YambaProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RunManager" selected="Android Application.YambaProject">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="YambaProject" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="YambaProject" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="thisIsIt" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.YambaProject" />
+    </list>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d596c228-b8fe-4c25-b1bd-1beca8b57760" name="Default" comment="" />
+      <created>1368682570865</created>
+      <updated>1368682570865</updated>
+      <workItem from="1368682585257" duration="580000" />
+      <workItem from="1368684909749" duration="531000" />
+      <workItem from="1368708681155" duration="2515000" />
+      <workItem from="1368724930888" duration="553000" />
+      <workItem from="1368743495248" duration="2465000" />
+      <workItem from="1368746011763" duration="2844000" />
+      <workItem from="1368765884729" duration="1997000" />
+      <workItem from="1369133295970" duration="3732000" />
+      <workItem from="1369137937797" duration="24794000" />
+      <workItem from="1369270867972" duration="111000" />
+      <workItem from="1369391560463" duration="8402000" />
+      <workItem from="1369457682975" duration="796000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="49320000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958263" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297162" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39983305" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19529983" sideWeight="0.6736672" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297162" sideWeight="0.8424544" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297162" sideWeight="0.8424544" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.67164177" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15754561" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/yambaproject/TimelineActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yambaproject/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="34" selection-start="2873" selection-end="2873" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/servicemenu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="41" selection-start="550" selection-end="550" vertical-scroll-proportion="0.6225352" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/list_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="59" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/prefs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="61" selection-start="914" selection-end="914" vertical-scroll-proportion="0.5690141" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yambaproject/BootReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="63" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yambaproject/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="40" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yambaproject/TimelineActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="21" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yambaproject/YambaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="23" selection-start="1793" selection-end="1793" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yambaproject/RefreshService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="56" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yambaproject/StatusData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="45" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="27" selection-start="2153" selection-end="2153" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yambaproject/UpdaterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="85" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.25801012">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>YambaProject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jtwitter-yamba</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

@@ -21,7 +21,7 @@ import android.content.IntentFilter;
 public class TimelineActivity extends ListActivity
 {
     SimpleCursorAdapter sca;
-    TimelineReceiver receiver;
+
     Cursor c;
     public static final ViewBinder VIEW_BINDER=new ViewBinder()
     {
@@ -47,31 +47,24 @@ public class TimelineActivity extends ListActivity
 		 super.onCreate(savedInstanceState);
 		// setContentView(R.layout.timeline_activity);
 
-
+         setupList();
          //ListView list_timeline=(ListView)findViewById(R.id.list);
 
 
-         sca = new SimpleCursorAdapter(this,R.layout.list_item,c,new  String[] {StatusData.C_USER,StatusData.C_CREATED_AT,StatusData.C_TEXT},new int[] {R.id.txt_user,R.id.txt_time,R.id.txt_tweet});
-         sca.setViewBinder(VIEW_BINDER);
 
-        setTitle(R.string.timeline);
-         setListAdapter(sca);
      }
 
     public void onResume()
     {
         super.onResume();
-        if(receiver==null)
-        {
-            receiver=new TimelineReceiver();
-        }
-       registerReceiver(receiver,new IntentFilter(YambaApplication.ACTION_NEW_STATUS));
+        setupList();
+
     }
 
     public void onPause()
     {
         super.onPause();
-        unregisterReceiver(receiver);
+
     }
 
     @Override
@@ -111,27 +104,20 @@ public class TimelineActivity extends ListActivity
         return false;
     }
 
-    class TimelineReceiver extends BroadcastReceiver
+    public void setupList()
     {
+        sca = new SimpleCursorAdapter(this,R.layout.list_item,c,new  String[] {StatusData.C_USER,StatusData.C_CREATED_AT,StatusData.C_TEXT},new int[] {R.id.txt_user,R.id.txt_time,R.id.txt_tweet});
+        sca.setViewBinder(VIEW_BINDER);
 
-        //This broadcast receiver updates the data in the cursor from the database and sets this updated cursor
-        //as the adapter's cursor.
+        setTitle(R.string.timeline);
+        setListAdapter(sca);
 
-        //The activity registers with the broadcast receiver in onResume and unregisters in onPause...
-
-        public void onReceive(Context context,Intent intent)
-        {
-            Cursor c=((YambaApplication)getApplication()).data.query();
-            startManagingCursor(c);
-            sca.changeCursor(c);
-           int count= intent.getIntExtra("count",0);
-            if(count>0)
-            {
-            Log.d("Yamba","TimelineReceiver has found "+count+" new tweets for you");
-            }
-                Log.d("Yamba","TimelineReceiver Changing Cursor");
-        }
+        Cursor c=((YambaApplication)getApplication()).data.query();
+        startManagingCursor(c);
+        sca.changeCursor(c);
+        Log.d("Yamba","TimelineReceiver Changing Cursor");
     }
+
 
 
     //You cannot add the same library twice,it causes a dexing error when compiling...it is called IllegalArgumentException

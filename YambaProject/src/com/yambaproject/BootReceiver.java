@@ -20,13 +20,15 @@ public class BootReceiver extends BroadcastReceiver {
 		//Context represents the context in which something is running...an Activity,a Service,the Application???
 		//Register to a BroadcastReceiver using IntentFilter,the BroadcastReceiver sends an Intent which is received by all
 		//app components filtering for this...in case of a system wide activity...you must have permission
-		long interval;
+		/*long interval;
         interval = Long.parseLong(PreferenceManager.getDefaultSharedPreferences(context).getString("delay", "900000"));
         PendingIntent operation=PendingIntent.getService(context, -1, new Intent("com.yambaproject.REFRESH_YAMBA"), PendingIntent.FLAG_UPDATE_CURRENT);
         AlarmManager alarmManager=(AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
         alarmManager.setInexactRepeating(AlarmManager.ELAPSED_REALTIME,System.currentTimeMillis(),interval,operation);
         Log.d(TAG,"BroadcastReceiver onReceive method called");
 		Log.d(TAG,"BootReceiver delay is "+interval);
+	   */
+        context.startService(new Intent("com.yambaproject.UpdaterService"));
 	}
 
 }
